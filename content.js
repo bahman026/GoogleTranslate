@@ -29,7 +29,7 @@ function createPopup() {
         const textarea = document.createElement('textarea');
         textarea.id = 'popupSource';
         textarea.style.width = '100%';
-        textarea.style.height = '10px';
+        textarea.style.height = '50px';
         popupDiv.appendChild(textarea);
 
         // Save button
