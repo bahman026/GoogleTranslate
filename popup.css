@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; width: 360px; margin: 0; padding: 12px; }
+header { display: flex; align-items: center; justify-content: space-between; }
+h1 { font-size: 16px; margin: 0; }
+h1 span { color: #eab308; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+textarea { width: 100%; padding: 8px; resize: vertical; }
+.actions { display: flex; gap: 8px; margin: 8px 0; }
+.actions button { flex: 1; padding: 8px; }
+.result { min-height: 48px; padding: 8px; background: #f6f6f6; border-radius: 8px; }
+#savedList { list-style: none; padding-left: 0; margin: 0; }
+#savedList li { padding: 6px 4px; border-bottom: 1px solid #eee; display: grid; gap: 4px; }
+#savedList li .meta { font-size: 11px; color: #666; }
+button.icon { background: transparent; border: none; cursor: pointer; }
+li .row { display: flex; gap: 6px; align-items: center; justify-content: space-between; }
+li .row .text { flex: 1; }
